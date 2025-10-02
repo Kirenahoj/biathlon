@@ -9,6 +9,3 @@ def splash():
     print("##         a hit or miss game          ##")
     print("#########################################")
     print()
-
-
-splash()
