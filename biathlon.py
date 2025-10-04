@@ -1,3 +1,5 @@
+from random import randint
+
 open = 0
 closed = 1
 
@@ -55,3 +57,21 @@ def view_targets(targets):
     print()
     print(targets_to_string(targets))    
     print()
+
+def random_hit():
+    hit = randint(0,1)
+    if hit:
+        return True
+    else:
+        return False
+    
+def shoot(targets, position):
+    hit = random_hit()
+
+    if hit and is_open(targets[position]):
+        close_target(targets,position)
+        return "Hit on open target!"
+    elif hit and is_closed(targets[position]):
+        return "Hit on closed target!"
+    else:
+        return "Miss!"
