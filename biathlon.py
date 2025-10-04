@@ -8,7 +8,7 @@ def splash():
     print("#########################################")
     print("##               Biathlon              ##")
     print("##                                     ##")
-    print("##         a hit or miss game          ##")
+    print("##          a hit or miss game         ##")
     print("#########################################")
     print()
 
