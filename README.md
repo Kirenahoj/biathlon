@@ -1,1 +1,1 @@
-biathlon-extra har extrauppgifterna också. Den andra har bara de obligatoriska lösningarna 
+biathlon-extra har extrauppgifterna också. Den andra har bara de obligatoriska uppgifterna.  
